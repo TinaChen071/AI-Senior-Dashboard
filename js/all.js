@@ -202,9 +202,13 @@ $("#mobile__summary__btn").click(function(e){
   $("#mobile__summary__overlay").toggle();
 });
 
-// 超商取貨 BTN
 
 
+$(document).ready(function () {
+  $("#mobileMenuBtn").click(function (e) { 
+      $("#mobileMenu").toggle();
+  });
+});
 
 
 
