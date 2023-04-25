@@ -962,6 +962,7 @@ module.exports = {
       wide: "0.025em",
       wider: "0.05em",
       widest: "0.1em",
+      custom: "0.3em"
     },
     lineHeight: ({ theme }) => ({
       ...theme("spacing"),
