@@ -318,7 +318,7 @@
 
         <div class="flex flex-wrap mt-6 -mx-3">
           <!-- left -->
-          <div class="w-full max-w-full px-3 mt-0 mb-6 lg:mb-0  lg:w-5/12 lg:flex-none">
+          <div class="w-full max-w-full px-3 mt-0 mb-6 lg:mb-0  lg:w-4/12 lg:flex-none">
             <!-- row 1 -->
             <div class="flex flex-wrap w-full mb-6">
               <!-- card1 -->
@@ -362,11 +362,13 @@
             <!-- row 2 -->
             <div class="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
               <div class="flex-auto p-4">
+                <!-- chart bar -->
                 <div class="py-4 pr-1 mb-4 bg-gradient-to-tl from-gray-900 to-slate-800 rounded-xl">
                   <div>
                     <canvas id="chart-bars" height="170"></canvas>
                   </div>
                 </div>
+
                 <div class="flex w-full">
                   <!-- doughnut-1 -->
                   <div class="relative w-1/2 max-h-full">
@@ -391,8 +393,8 @@
           </div>
 
           <!-- right -->
-          <div class="w-full max-w-full px-3 mt-0 lg:w-7/12 lg:flex-none">
-            <div class="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
+          <div class="w-full max-w-full px-3 mt-0 lg:w-8/12 lg:flex-none">
+            <div class="h-full border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
               <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid bg-white p-4 pb-0 ">
                 <p class="mb-6 font-sans font-semibold leading-normal text-lg  rounded-full py-2 text-white bg-black text-center">六大指標與標準值趨勢圖</p>
                 <p class="leading-normal text-sm">
@@ -582,114 +584,15 @@
         <!-- cards row 4 -->
 
         <div class="flex flex-wrap my-6 -mx-3">
-          <!-- card 0 -->
-
-          <div class="w-full max-w-full px-3  lg:w-1/4 lg:flex-none">
-            <div class="border-black/12.5 shadow-soft-xl relative flex h-full min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
-              <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid bg-white p-6 pb-0">
-                <h6>Orders overview</h6>
-                <p class="leading-normal text-sm">
-                  <i class="fa fa-arrow-up text-lime-500"></i>
-                  <span class="font-semibold">24%</span> this month
-                </p>
-              </div>
-              <div class="flex-auto p-4">
-                <div class="before:border-r-solid relative before:absolute before:top-0 before:left-4 before:h-full before:border-r-2 before:border-r-slate-100 before:content-[''] before:lg:-ml-px">
-                  <div class="relative mb-4 mt-0 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-bell-55 leading-pro bg-gradient-to-tl from-green-600 to-lime-400 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">$2400, Design changes</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">22 DEC 7:20 PM</p>
-                    </div>
-                  </div>
-                  <div class="relative mb-4 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-html5 leading-pro bg-gradient-to-tl from-red-600 to-rose-400 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">New order #1832412</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">21 DEC 11 PM</p>
-                    </div>
-                  </div>
-                  <div class="relative mb-4 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-cart leading-pro bg-gradient-to-tl from-blue-600 to-cyan-400 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">Server payments for April</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">21 DEC 9:34 PM</p>
-                    </div>
-                  </div>
-                  <div class="relative mb-4 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-credit-card leading-pro bg-gradient-to-tl from-red-500 to-yellow-400 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">New card added for order #4395133</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">20 DEC 2:20 AM</p>
-                    </div>
-                  </div>
-                  <div class="relative mb-4 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-key-25 leading-pro bg-gradient-to-tl from-purple-700 to-pink-500 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">Unlock packages for development</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">18 DEC 4:54 AM</p>
-                    </div>
-                  </div>
-                  <div class="relative mb-0 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-money-coins leading-pro bg-gradient-to-tl from-gray-900 to-slate-800 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">New order #9583120</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">17 DEC</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <!-- card 1 -->
 
           <div class="w-full max-w-full px-3  lg:w-1/2 lg:flex-none">
             <div class="border-black/12.5 shadow-soft-xl relative flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
               <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid bg-white p-6 pb-0">
-                <div class="flex flex-wrap mt-0 -mx-3">
-                  <div class="flex-none w-7/12 max-w-full px-3 mt-0 lg:w-1/2 lg:flex-none">
-                    <h6>Projects</h6>
-                    <p class="mb-0 leading-normal text-sm">
-                      <i class="fa fa-check text-cyan-500"></i>
-                      <span class="ml-1 font-semibold">30 done</span>
-                      this month
-                    </p>
-                  </div>
-                  <div class="flex-none w-5/12 max-w-full px-3 my-auto text-right lg:w-1/2 lg:flex-none">
-                    <div class="relative pr-6 lg:float-right">
-                      <a dropdown-trigger class="cursor-pointer" aria-expanded="false">
-                        <i class="fa fa-ellipsis-v text-slate-400"></i>
-                      </a>
-                      <p class="hidden transform-dropdown-show"></p>
-
-                      <ul dropdown-menu class="z-100 text-sm transform-dropdown shadow-soft-3xl duration-250 before:duration-350 before:font-awesome before:ease-soft min-w-44 -ml-34 before:text-5.5 pointer-events-none absolute top-0 m-0 mt-2 list-none rounded-lg border-0 border-solid border-transparent bg-white bg-clip-padding px-2 py-4 text-left text-slate-500 opacity-0 transition-all before:absolute before:top-0 before:right-7 before:left-auto before:z-40 before:text-white before:transition-all before:content-['\f0d8']">
-                        <li class="relative">
-                          <a class="py-1.2 lg:ease-soft clear-both block w-full whitespace-nowrap rounded-lg border-0 bg-transparent px-4 text-left font-normal text-slate-500 lg:transition-colors lg:duration-300" href="javascript:;">Action</a>
-                        </li>
-                        <li class="relative">
-                          <a class="py-1.2 lg:ease-soft clear-both block w-full whitespace-nowrap rounded-lg border-0 bg-transparent px-4 text-left font-normal text-slate-500 lg:transition-colors lg:duration-300" href="javascript:;">Another action</a>
-                        </li>
-                        <li class="relative">
-                          <a class="py-1.2 lg:ease-soft clear-both block w-full whitespace-nowrap rounded-lg border-0 bg-transparent px-4 text-left font-normal text-slate-500 lg:transition-colors lg:duration-300" href="javascript:;">Something else here</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+                <p class="mb-6 font-sans font-semibold leading-normal text-lg  rounded-full py-2 text-white bg-black text-center">佔床率分析</p>
               </div>
-              <div class="flex-auto p-6 px-0 pb-2">
+              <div class="flex-auto p-4 ">
                 <div class="overflow-x-auto">
                   <table class="items-center w-full mb-0 align-top border-gray-200 text-slate-500">
                     <thead class="align-bottom">
@@ -1001,72 +904,55 @@
 
           <!-- card 2 -->
 
-          <div class="w-full max-w-full px-3  lg:w-1/4 lg:flex-none">
-            <div class="border-black/12.5 shadow-soft-xl relative flex h-full min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
-              <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid bg-white p-6 pb-0">
-                <h6>Orders overview</h6>
-                <p class="leading-normal text-sm">
-                  <i class="fa fa-arrow-up text-lime-500"></i>
-                  <span class="font-semibold">24%</span> this month
-                </p>
-              </div>
-              <div class="flex-auto p-4">
-                <div class="before:border-r-solid relative before:absolute before:top-0 before:left-4 before:h-full before:border-r-2 before:border-r-slate-100 before:content-[''] before:lg:-ml-px">
-                  <div class="relative mb-4 mt-0 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-bell-55 leading-pro bg-gradient-to-tl from-green-600 to-lime-400 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">$2400, Design changes</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">22 DEC 7:20 PM</p>
-                    </div>
-                  </div>
-                  <div class="relative mb-4 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-html5 leading-pro bg-gradient-to-tl from-red-600 to-rose-400 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">New order #1832412</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">21 DEC 11 PM</p>
-                    </div>
-                  </div>
-                  <div class="relative mb-4 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-cart leading-pro bg-gradient-to-tl from-blue-600 to-cyan-400 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">Server payments for April</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">21 DEC 9:34 PM</p>
-                    </div>
-                  </div>
-                  <div class="relative mb-4 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-credit-card leading-pro bg-gradient-to-tl from-red-500 to-yellow-400 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">New card added for order #4395133</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">20 DEC 2:20 AM</p>
-                    </div>
-                  </div>
-                  <div class="relative mb-4 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-key-25 leading-pro bg-gradient-to-tl from-purple-700 to-pink-500 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">Unlock packages for development</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">18 DEC 4:54 AM</p>
-                    </div>
-                  </div>
-                  <div class="relative mb-0 after:clear-both after:table after:content-['']">
-                    <span class="w-6.5 h-6.5 text-base absolute left-4 z-10 inline-flex -translate-x-1/2 items-center justify-center rounded-full bg-white text-center font-semibold">
-                      <i class="relative z-10 text-transparent ni leading-none ni-money-coins leading-pro bg-gradient-to-tl from-gray-900 to-slate-800 bg-clip-text fill-transparent"></i>
-                    </span>
-                    <div class="ml-11.252 pt-1.4 lg:max-w-120 relative -top-1.5 w-auto">
-                      <h6 class="mb-0 font-semibold leading-normal text-sm text-slate-700">New order #9583120</h6>
-                      <p class="mt-1 mb-0 font-semibold leading-tight text-xs text-slate-400">17 DEC</p>
-                    </div>
+          <div class="w-full max-w-full px-3  lg:w-1/2 lg:flex-none">
+            <!-- row 1 -->
+            <div class=" w-full mb-6">
+              <!-- card1 -->
+              <div class="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
+              
+                <div class="flex-auto p-4">
+                  <p class="mb-6 font-sans font-semibold leading-normal text-lg  rounded-full py-2 text-white bg-black text-center">入住數據</p>
+                  <div class="flex w-full">
+                    <!-- doughnut-3 -->
+                    <canvas id="doughnut3" height="400px" class=" mx-auto">
+                    </canvas>
+                    
                   </div>
                 </div>
+                
+              </div>
+              
+            </div>  
+
+            <!-- row 2 -->
+            <div class="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
+              <div class="flex-auto p-4">
+                <!-- chart bar -->
+                <div class="py-4 pr-1 mb-4 bg-gradient-to-tl from-gray-900 to-slate-800 rounded-xl">
+                  <div>
+                    <canvas id="chart-bars" height="170"></canvas>
+                  </div>
+                </div>
+
+                <div class="flex w-full">
+                  <!-- doughnut-1 -->
+                  <div class="relative w-1/2 max-h-full">
+                    <span class="absolute  top-1/2  left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-xl">
+                    46.67%
+                    </span>
+                    <canvas id="doughnut1"  class="w-full h-full mx-auto">
+                    </canvas>
+                  </div>
+                  <!-- doughnut-2 -->
+                  <div class="relative w-1/2 max-h-full">
+                    <span class="absolute  top-1/2  left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-xl">
+                    53.33%
+                    </span>
+                    <canvas id="doughnut2" class="w-full h-full mx-auto">
+                    </canvas>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -1115,6 +1001,9 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="./assets/js/doughnut-1.js"></script>
   <script src="./assets/js/doughnut-2.js"></script>
+  <script src="./assets/js/doughnut-3.js"></script>
+  <script src="./assets/js/doughnut-4.js"></script>
+  <script src="./assets/js/doughnut-5.js"></script>
   <!-- plugin for scrollbar  -->
   <script src="./assets/js/plugins/perfect-scrollbar.min.js" async></script>
   <!-- github button -->
