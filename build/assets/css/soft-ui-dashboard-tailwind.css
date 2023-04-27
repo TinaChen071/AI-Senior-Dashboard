@@ -1211,6 +1211,10 @@ h6 {
   height: 3rem;
 }
 
+.h-120 {
+  height: 30rem;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -1261,10 +1265,6 @@ h6 {
 
 .h-6\.5 {
   height: 1.625rem;
-}
-
-.h-60 {
-  height: 15rem;
 }
 
 .h-8 {
@@ -1708,10 +1708,6 @@ h6 {
 
 .overflow-visible {
   overflow: visible;
-}
-
-.overflow-scroll {
-  overflow: scroll;
 }
 
 .overflow-x-auto {
@@ -4118,6 +4114,10 @@ h6 {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-60 {
+    height: 15rem;
   }
 
   .lg\:w-1\/2 {
