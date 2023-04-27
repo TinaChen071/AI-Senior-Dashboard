@@ -1980,6 +1980,11 @@ h6 {
   background-color: rgb(233 236 239 / var(--tw-bg-opacity));
 }
 
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 214 218 / var(--tw-bg-opacity));
+}
+
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 249 250 / var(--tw-bg-opacity));
@@ -4012,10 +4017,6 @@ h6 {
     display: block;
   }
 
-  .md\:h-60 {
-    height: 15rem;
-  }
-
   .md\:w-1\/12 {
     width: 8.333333%;
   }
@@ -4138,8 +4139,16 @@ h6 {
     width: 33.333333%;
   }
 
+  .lg\:w-1\/4 {
+    width: 25%;
+  }
+
   .lg\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .lg\:w-3\/4 {
+    width: 75%;
   }
 
   .lg\:w-4\/12 {
