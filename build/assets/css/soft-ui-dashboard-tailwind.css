@@ -1994,6 +1994,11 @@ h6 {
   background-color: inherit;
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 57 57 / var(--tw-bg-opacity));
+}
+
 .bg-slate-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(103 116 142 / var(--tw-bg-opacity));
@@ -2729,6 +2734,11 @@ h6 {
 .text-neutral-900 {
   --tw-text-opacity: 1;
   color: rgb(17 17 17 / var(--tw-text-opacity));
+}
+
+.text-purple-400 {
+  --tw-text-opacity: 1;
+  color: rgb(192 132 252 / var(--tw-text-opacity));
 }
 
 .text-red-500 {
@@ -4002,6 +4012,10 @@ h6 {
     display: block;
   }
 
+  .md\:h-60 {
+    height: 15rem;
+  }
+
   .md\:w-1\/12 {
     width: 8.333333%;
   }
@@ -4114,10 +4128,6 @@ h6 {
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:h-60 {
-    height: 15rem;
   }
 
   .lg\:w-1\/2 {
