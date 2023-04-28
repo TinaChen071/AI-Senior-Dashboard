@@ -2327,6 +2327,10 @@ h6 {
   fill: #3a416f;
 }
 
+.fill-teal-500 {
+  fill: #14b8a6;
+}
+
 .fill-transparent {
   fill: transparent;
 }
