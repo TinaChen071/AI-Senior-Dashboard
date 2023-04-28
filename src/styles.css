@@ -18,3 +18,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn--default {
+        @apply px-0.38 py-0.38 my-0 mx-4  text-sm  flex items-center whitespace-nowrap  transition-colors;
+    }
+    .btn--hover {
+        @apply hover:shadow-soft-xl hover:ease-in hover:-translate-y-0.5 transition duration-300 ;
+    }
+    .btn--focus{
+        @apply focus:shadow-soft-xl focus:bg-gradient-to-r from-custom-blue  to-custom-purple focus:transition-colors focus:whitespace-nowrap ;
+    }
+    .btn__inner{
+        @apply bg-white focus:bg-gradient-to-r from-white to-gray-100  flex items-center  rounded-full text-center px-4 py-2 w-full ;
+    }
+}
