@@ -703,6 +703,7 @@ h6 {
 .btn--focus:focus {
   white-space: nowrap;
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  font-weight: 600;
   --tw-shadow: 0 20px 27px 0 rgba(0,0,0,0.05);
   --tw-shadow-colored: 0 20px 27px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);

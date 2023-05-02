@@ -27,7 +27,7 @@
         @apply hover:shadow-soft-xl hover:ease-in  hover:-translate-y-0.5 transition duration-300 ;
     }
     .btn--focus{
-        @apply focus:shadow-soft-xl focus:bg-gradient-to-r from-custom-blue  to-custom-purple focus:transition-colors focus:whitespace-nowrap ;
+        @apply focus:shadow-soft-xl focus:bg-gradient-to-r from-custom-blue  to-custom-purple focus:transition-colors focus:whitespace-nowrap focus:font-semibold;
     }
     .btn__inner{
         @apply bg-white focus:bg-gradient-to-r from-white to-gray-100  flex items-center  rounded-full text-center px-4 py-2 w-full ;
