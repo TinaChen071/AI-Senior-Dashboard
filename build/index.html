@@ -418,23 +418,25 @@
               <div class="flex flex-wrap p-3">
                 <!-- 左：表格 -->
                 <div class="w-full max-w-full pr-3 mt-0 mb-6 lg:mb-0  lg:w-3/4  lg:flex-none">
+                  <!-- 標註 -->
                   <div class="flex items-center  leading-normal text-sm px-4 py-2">
                     <div class="w-4 h-4 rounded-full bg-red-500 mr-2"></div>
                     <span class="font-semibold">未達標準</span> 
                   </div>
-                  <div class="flex-auto p-4 h-120  overflow-y-auto">
+                  <!-- 表格 -->
+                  <div class="flex-auto  h-120  overflow-y-auto">
                     <div class="flex-auto px-0 pt-0 pb-2 ">
                       <div class="p-0 ">
                         <table class="items-center w-full mb-0 align-top border-gray-200 text-slate-500">
                           <thead class="align-bottom">
                             <tr>
                               <th class="px-6 py-3 font-bold text-left uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">月份</th>
-                              <th class="px-6 py-3 pl-2 font-bold text-left uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">跌倒 %</th>
-                              <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">感染 %</th>
-                              <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">約束 %</th>
-                              <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">壓傷 %</th>
-                              <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">體重 %</th>
-                              <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">住院 %</th>
+                              <th class="px-3 py-3 pl-2 font-bold text-left uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">跌倒 %</th>
+                              <th class="px-3 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">感染 %</th>
+                              <th class="px-3 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">約束 %</th>
+                              <th class="px-3 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">壓傷 %</th>
+                              <th class="px-3 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">體重 %</th>
+                              <th class="px-3 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-gray-200 shadow-none text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">住院 %</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -758,12 +760,17 @@
                   </div>
                 </div>
                 <!-- 右：圓餅圖 -->
-                <div class="w-full max-w-full  mt-0 lg:w-1/4 flex lg:flex-none bg-gray-100 rounded-lg">
+                <div class="  mt-0 lg:w-1/4 flex lg:flex-none bg-gray-100 rounded-lg">
                   
-                  <div class="flex w-full">
-                    <!-- doughnut-3 -->
+                  <div class="w-full max-w-full  ">
+                    <div class="flex w-full relative">
+                      <!-- doughnut-3 -->
+                    <span class="absolute  top-1/2  left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-xl">
+                      重大異常事件分析
+                      </span>
                     <canvas id="doughnut3" height="400px" class=" mx-auto">
                     </canvas>
+                    </div>
                     
                   </div>
                 </div>

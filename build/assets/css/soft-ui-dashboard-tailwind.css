@@ -692,11 +692,11 @@ h6 {
 }
 
 .btn--focus {
-  --tw-gradient-from: #86E2FF var(--tw-gradient-from-position);
+  --tw-gradient-from: #8C85DF var(--tw-gradient-from-position);
   --tw-gradient-from-position:  ;
-  --tw-gradient-to: rgb(134 226 255 / 0)  var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(140 133 223 / 0)  var(--tw-gradient-from-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  --tw-gradient-to: #8C85DF var(--tw-gradient-to-position);
+  --tw-gradient-to: #86E2FF var(--tw-gradient-to-position);
   --tw-gradient-to-position:  ;
 }
 
@@ -744,7 +744,7 @@ h6 {
 
 .group:focus .btn__inner__icon {
   --tw-text-opacity: 1;
-  color: rgb(216 180 254 / var(--tw-text-opacity));
+  color: rgb(140 133 223 / var(--tw-text-opacity));
 }
 
 .pointer-events-none {

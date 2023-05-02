@@ -3,11 +3,11 @@ var ctx = document.getElementById("doughnut3").getContext("2d");
 new Chart(ctx, {
   type: "doughnut",
   data: {
-    labels: [
-      'Red',
-      'Blue',
-      'Yellow'
-    ],
+    // labels: [
+    //   'Red',
+    //   'Blue',
+    //   'Yellow'
+    // ],
     datasets: [{
       label: 'My First Dataset',
       data: [300, 50, 100],
