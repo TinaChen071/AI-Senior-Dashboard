@@ -777,12 +777,33 @@
         <div class="flex flex-wrap my-6 -mx-3">
           
           <!-- card 1 -->
+          <div class="w-full max-w-full px-3  lg:w-7/12 lg:flex-none">
+            <!-- row 1 -->
+            <div class=" w-full mb-6">
+              
+              <div class="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
+              
+                <div class="flex-auto p-4">
+                  <p class="mb-6 font-sans font-semibold leading-normal text-lg  rounded-full py-2 text-white bg-black text-center">入住數據</p>
+                  <div class="flex w-full">
+                    <!-- doughnut-3 -->
+                    <canvas id="doughnut4" height="400px" class=" mx-auto">
+                    </canvas>
+                    
+                  </div>
+                </div>
+                
+              </div>
+              
+            </div>  
 
-          <div class="w-full max-w-full px-3  lg:w-1/2 lg:flex-none">
-            <div class="h-full border-black/12.5 shadow-soft-xl relative flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
+            <!-- row 2 -->
+            <div class="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
+              <!-- title -->
               <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid bg-white p-4 pb-0">
                 <p class="mb-6 font-sans font-semibold leading-normal text-lg  rounded-full py-2 text-white bg-black text-center">佔床率分析</p>
               </div>
+              <!-- table -->
               <div class=" flex-auto p-4 ">
                 <div class="overflow-x-auto">
                   <table class="items-center w-full mb-0 align-top border-gray-200 text-slate-500">
@@ -1094,29 +1115,8 @@
           </div>
 
           <!-- card 2 -->
-
-          <div class="w-full max-w-full px-3  lg:w-1/2 lg:flex-none">
-            <!-- row 1 -->
-            <div class=" w-full mb-6">
-              <!-- card1 -->
-              <div class="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
-              
-                <div class="flex-auto p-4">
-                  <p class="mb-6 font-sans font-semibold leading-normal text-lg  rounded-full py-2 text-white bg-black text-center">入住數據</p>
-                  <div class="flex w-full">
-                    <!-- doughnut-3 -->
-                    <canvas id="doughnut4" height="400px" class=" mx-auto">
-                    </canvas>
-                    
-                  </div>
-                </div>
-                
-              </div>
-              
-            </div>  
-
-            <!-- row 2 -->
-            <div class="border-black/12.5 shadow-soft-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
+          <div class="w-full max-w-full px-3  lg:w-5/12 lg:flex-none">
+            <div class="h-full border-black/12.5 shadow-soft-xl relative flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
               <div class="flex-auto p-4">
                 <!-- chart bar -->
                 <div class="py-4 pr-1 mb-4 bg-white rounded-xl">
@@ -1145,8 +1145,10 @@
                 </div>
                 
               </div>
+              
             </div>
           </div>
+          
         </div>
 
         <footer class="pt-4">
