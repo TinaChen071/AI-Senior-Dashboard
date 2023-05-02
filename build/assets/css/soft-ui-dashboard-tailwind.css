@@ -735,6 +735,17 @@ h6 {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.btn__inner__icon {
+  fill: currentColor;
+  --tw-text-opacity: 1;
+  color: rgb(108 117 125 / var(--tw-text-opacity));
+}
+
+.group:focus .btn__inner__icon {
+  --tw-text-opacity: 1;
+  color: rgb(216 180 254 / var(--tw-text-opacity));
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -2796,11 +2807,6 @@ h6 {
   color: rgb(233 236 239 / var(--tw-text-opacity));
 }
 
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(108 117 125 / var(--tw-text-opacity));
-}
-
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(73 80 87 / var(--tw-text-opacity));
@@ -3949,11 +3955,6 @@ h6 {
 .group:hover .group-hover\:translate-x-1\.25 {
   --tw-translate-x: 0.3125rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:focus .group-focus\:text-purple-300 {
-  --tw-text-opacity: 1;
-  color: rgb(216 180 254 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:border-gray-600) {
