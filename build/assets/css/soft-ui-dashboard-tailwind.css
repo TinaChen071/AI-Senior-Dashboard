@@ -4144,6 +4144,11 @@ h6 {
     width: 66.666667%;
   }
 
+  .md\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .md\:flex-0 {
     flex: 0 0 auto;
   }
