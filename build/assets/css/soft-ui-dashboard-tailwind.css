@@ -2327,10 +2327,6 @@ h6 {
   fill: #3a416f;
 }
 
-.fill-teal-500 {
-  fill: #14b8a6;
-}
-
 .fill-transparent {
   fill: transparent;
 }
@@ -2798,6 +2794,11 @@ h6 {
 .text-gray-200 {
   --tw-text-opacity: 1;
   color: rgb(233 236 239 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(108 117 125 / var(--tw-text-opacity));
 }
 
 .text-gray-700 {
@@ -3948,6 +3949,11 @@ h6 {
 .group:hover .group-hover\:translate-x-1\.25 {
   --tw-translate-x: 0.3125rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:focus .group-focus\:text-purple-300 {
+  --tw-text-opacity: 1;
+  color: rgb(216 180 254 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:border-gray-600) {
