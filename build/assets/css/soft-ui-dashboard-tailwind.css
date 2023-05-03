@@ -1371,6 +1371,11 @@ h6 {
   height: 80vh;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1381,11 +1386,6 @@ h6 {
 
 .h-sidenav {
   height: calc(100vh - 140px);
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 .max-h-8 {
