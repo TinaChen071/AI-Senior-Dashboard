@@ -1383,6 +1383,11 @@ h6 {
   height: calc(100vh - 140px);
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .max-h-8 {
   max-height: 2rem;
 }
